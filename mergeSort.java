@@ -64,7 +64,7 @@ public class mergeSort {
     public static void main(String args[]) throws Exception
     {
         int Array[];
-        Array=ReadArray("C:\\Users\\Pavel\\Desktop\\MergeSort.txt");
+        Array=ReadArray("C:\\MergeSort.txt");
         if (Array!=null)
         {
             SplitMerge(Array);
